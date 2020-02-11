@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
-    <title>untitled</title>
+    <title>webar</title>
   </head>
   <body>
-  <a-scene>
+  <a-scene embedded arjs="debugUIEnabled:false;" vr-mode-ui="enabled:false">
     <a-marker preset ="hiro">
-    <!-- 3Dモデル  -->
+    
         <a-asset-item id="3DModel" src="dice_01.obj"></a-asset-item>
-    <!-- マテリアル -->
+    
         <a-asset-item id="Material" src="dice_01.mtl"></a-asset-item>
 
         <a-obj-model 
