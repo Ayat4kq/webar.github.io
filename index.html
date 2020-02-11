@@ -7,10 +7,29 @@
     <title>untitled</title>
   </head>
   <body>
+  <a-scene>
+    <a-marker preset ="hiro">
     <!-- 3Dモデル  -->
         <a-asset-item id="3DModel" src="dice_01.obj"></a-asset-item>
     <!-- マテリアル -->
         <a-asset-item id="Material" src="dice_01.mtl"></a-asset-item>
 
+        <a-obj-model 
+                src="#3DModel"
+                mtl="#Material"
+                scale="0.5 0.5 0.5"
+                position="0 0.5 0"
+                rotation="-80 -90 90">
+            </a-obj-model>
+            <a-animation  
+                attribute="position"
+                dur="3000"
+                to="0 0 0.5"
+                repeat="indefinite"
+                direction="alternate">
+            </a-animation>
+    </a-marker>
+    <a-entity camera></a-camera>
+    </a-scene>
   </body>
 </html>
