@@ -1,0 +1,97 @@
+html {
+	width: 415px;
+	height: 1182px;
+	background: #EEEEEE;
+}
+
+img {
+	width: 151px;
+	height: 95px;
+	margin-left: 132px;
+}
+
+#about {
+	color: #BE5C07;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 40px;
+	margin-left: 25px;
+	font-size: 16px;
+}
+
+#line {
+	border-bottom: 1.5px solid #000000;
+	margin: 7.5px 10px;
+}
+
+#me img {
+	border-radius: 100px;
+	width: 90px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#main0 {
+	float: left;
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	color: #BE5C07;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#portfolio {
+	color: #BE5C07;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 200px;
+	margin-left: 25px;
+	font-size: 8px;
+}
+
+#line1 {
+	border-bottom: 1.5px solid #000000;
+	margin-top: 7.5px;
+	margin-right: 10px;
+	margin-left: -15px;
+}
+
+#portfolio img {
+	border-radius: 10px;
+	margin-left: 0px;
+}
+
+#contact {
+	color: #BE5C07;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-left: 25px;
+	margin-top: 50px;
+}
+
+#line2 {
+	border-bottom: 1.5px solid #000000;
+	margin-top: 7.5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+form dt {
+	margin-left: 25px;
+	padding-right: 30px;
+	color: #BE5C07;
+	font-family: 'Raleway', sans-serif;
+	border-left: 3px solid #BC4610;
+	font-size: 13px;
+}
+
+button {
+	width: 150px;
+	height: 20px;
+	color: #F84500;
+	margin-left: 35px;
+}
+
+textarea {
+	width: 150px;
+	height: 100px
+}
